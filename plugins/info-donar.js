@@ -10,7 +10,7 @@ setTimeout(resolve, 1000) }) * 1000}
 let uptime = clockString(_uptime)
 let estado = `
  🌸 𝘊𝘙𝘌𝘈𝘋𝘖𝘙 🌸
-• Maxz
+• perrita
 
  🌸 𝘈𝘊𝘛𝘐𝘝𝘐𝘋𝘈𝘋 🌸
 • ${uptime}
