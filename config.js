@@ -7,7 +7,7 @@ global.owner = [
 ] //Numeros de owner 
 
 global.mods = [''] 
-global.prems = ['5493536568522', '59176181985']
+global.prems = ['56939026360', '34 604 85 45 11']
 global.APIs = { // API Prefix
   // name: 'https://website' 
   nrtm: 'https://fg-nrtm.ddns.net',
@@ -34,10 +34,10 @@ global.fglog = ''
 
 //--- Grupos WA
 global.id_canal = '120363302454592275@newsletter' //-ID de canal de WhatsApp
-global.fgcanal = 'https://whatsapp.com/channel/0029VafBXQtDDmFbtwvkt20J'
-global.bgp = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6'
-global.bgp2 = 'https://chat.whatsapp.com/EVl0wxlCww74HV3vvZq83a'
-global.bgp3 = 'https://chat.whatsapp.com/Fn5Ipyxu6mE6qEQlwWZTwU' //--GP NSFW
+global.fgcanal = 'https://chat.whatsapp.com/CXMhGnyK82R94qdUGzzpJp'
+global.bgp = 'https://chat.whatsapp.com/CXMhGnyK82R94qdUGzzpJp'
+global.bgp2 = 'https://chat.whatsapp.com/CXMhGnyK82R94qdUGzzpJp'
+global.bgp3 = 'https://chat.whatsapp.com/FtHuuywwNMQGgRTVbL7lwH' //--GP NSFW
 
 //* *******Tiempo***************
 global.d = new Date(new Date + 3600000);
