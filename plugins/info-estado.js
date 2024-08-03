@@ -9,7 +9,7 @@ setTimeout(resolve, 1000) }) * 1000}
 let uptime = clockString(_uptime)
 let estado = `
  🌸 𝘊𝘙𝘌𝘈𝘋𝘖𝘙 🌸
-• Maxzito
+• sebas
 
  🌸 𝘔𝘖𝘋𝘖 🌸
 • publico.
@@ -26,7 +26,7 @@ let estado = `
  🌸 𝘉𝘖𝘛 🌸
 • Yumiko Bot
 `
-await conn.sendButton(m.chat, estado, '@by Maxz', pp, [
+await conn.sendButton(m.chat, estado, '@by sebas', pp, [
 ['☁️ MI PERFIL ☁️', '.Perfil'], ['📚 MENU 📚', '/allmenu']], null, [['🌸 CANAL 🌸', `${fgcanal}`]], m)
 }
 handler.help = ['estado']
