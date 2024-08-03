@@ -19,13 +19,13 @@ let estado = `
  🌸 𝘈𝘝𝘐𝘚𝘖𝘚 🌸
 • ${bgp}
 
- 🌸 𝘎𝘌𝘕𝘌𝘚𝘐𝘚 🌸
-• https://chat.whatsapp.com/GO5l3kShGE30eV9dN82elb
+ 🌸 grupo 🌸
+• https://chat.whatsapp.com/FtHuuywwNMQGgRTVbL7lwH
 
-🌸 𝘠𝘜𝘔𝘐𝘒𝘖 𝘎𝘓𝘖𝘉𝘈𝘓 🌸
-•https://chat.whatsapp.com/E8krRQKttIl3NpX3T1qZwv
+🌸 ramirez  𝘎𝘓𝘖𝘉𝘈𝘓 🌸
+•https://chat.whatsapp.com/CXMhGnyK82R94qdUGzzpJp
 `
-await conn.sendButton(m.chat, estado, 'by: Mxz', pp, [
+await conn.sendButton(m.chat, estado, 'by: sebas', pp, [
 ['🤴 DUEÑO 🤴', '.owner'], ['☁️ DONAR ☁️', '.donate']], null, [['🌸 CANAL 🌸', `${fgcanal}`]], m)
 }
 handler.help = ['grupos']
