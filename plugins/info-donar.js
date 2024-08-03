@@ -10,7 +10,7 @@ setTimeout(resolve, 1000) }) * 1000}
 let uptime = clockString(_uptime)
 let estado = `
  🌸 𝘊𝘙𝘌𝘈𝘋𝘖𝘙 🌸
-• perras
+• sebas
 
  🌸 𝘈𝘊𝘛𝘐𝘝𝘐𝘋𝘈𝘋 🌸
 • ${uptime}
@@ -21,13 +21,13 @@ let estado = `
  🌸 𝘋𝘖𝘕𝘈𝘙 🌸
 • Puedes apoyar el bot dando tu estrellita en nuestro repositorio
 
- 🌸 𝘙𝘌𝘗𝘖𝘚𝘐𝘛𝘖𝘙𝘐𝘖 🌸
-• https://github.com/Maxz-on/Yumiko-.git
-
+ 🌸 𝘙amires 🌸
+• 
+https://chat.whatsapp.com/CXMhGnyK82R94qdUGzzpJp
 
 `
 await conn.sendButton(m.chat, estado, ' By: Mxz', pp, [
-['🤴 DUEÑO 🤴', '.owner'], ['🫀GRUPOS 🫀', '/grupos']], null, [['🌸 CANAL 🌸', `${fgcanal}`]], m)
+['🤴 DUEÑO 🤴', '.owner'], ['🫀GRUPOS 🫀', '/grupos']], null, [['🌸 ramirez 🌸', `${fgcanal}`]], m)
 }
 handler.help = ['donate']
 handler.tags = ['info']
