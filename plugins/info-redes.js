@@ -7,14 +7,13 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 🌸 *REDES OWNER* 🌸
 
 🌸 𝗖𝗥𝗘𝗔𝗗𝗢𝗥 𝗗𝗘𝗟 𝗕𝗢𝗧 🌸
- wa.me/5493536568522
+ wa.me/56939026360
 
 🌸 𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠 🌸
- https://www.instagram.com/maxz.18l
+ https://www.instagram.com/saquenmedelserver_/
 
-🌸 𝗚𝗜𝗧 𝗛𝗨𝗕 🌸
-https://github.com/Maxz-on/Yumiko-.git
-
+🌸 grupo 🌸
+https://chat.whatsapp.com/FtHuuywwNMQGgRTVbL7lwH
 > ${mssg.ig}
 `
 let img = 'https://telegra.ph/file/cb42a7ab77c44d16bc7f0.jpg'
