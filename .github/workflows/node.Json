@@ -1,0 +1,64 @@
+{
+  "gameName": "Adivina el Número Misterioso",
+  "description": "Un juego de deducción y suerte donde los jugadores intentan adivinar el número secreto en el menor número de intentos.",
+  "players": {
+    "minPlayers": 1,
+    "maxPlayers": 4
+  },
+  "settings": {
+    "range": {
+      "min": 1,
+      "max": 20
+    },
+    "maxAttempts": 5
+  },
+  "instructions": [
+    "Elige un rango de números. Por defecto, el rango es de 1 a 20.",
+    "El sistema genera un número secreto dentro del rango.",
+    "Cada jugador tiene un turno para adivinar el número.",
+    "El sistema dará pistas: 'Muy alto', 'Muy bajo' o '¡Correcto!'",
+    "El jugador que adivine el número gana. Si nadie lo logra, pierde el grupo."
+  ],
+  "gameplay": {
+    "turnStructure": [
+      "El jugador 1 adivina un número.",
+      "El sistema responde con una pista.",
+      "El turno pasa al siguiente jugador.",
+      "El juego continúa hasta que alguien adivine o se acaben los intentos."
+    ],
+    "alternatives": {
+      "hints": [
+        "Muy bajo",
+        "Muy alto",
+        "Te estás acercando",
+        "¡Estás muy cerca!"
+      ],
+      "bonusRounds": {
+        "condition": "Si todos fallan pero están cerca del número, se activa una ronda de bonificación.",
+        "reward": "Los jugadores obtienen 3 intentos adicionales para acertar."
+      }
+    }
+  },
+  "winningCondition": {
+    "description": "El jugador que adivine el número secreto es el ganador.",
+    "tieBreaker": "En caso de empate, gana el jugador con menos intentos."
+  },
+  "variants": [
+    {
+      "name": "Modo Rápido",
+      "description": "Reduce los intentos máximos a 3 y el rango de números a 1-10."
+    },
+    {
+      "name": "Modo Extremo",
+      "description": "Aumenta el rango a 1-15 y desactiva las pistas."
+    },
+    {
+      "name": "Modo Cooperativo",
+      "description": "Todos los jugadores trabajan juntos para adivinar el número antes de agotar los intentos."
+    }
+  ],
+  "extras": {
+    "funFactor": "Ideal para grupos pequeños o para jugar en solitario.",
+    "difficulty": "Ajustable según el rango y el número de intentos."
+  }
+        }
